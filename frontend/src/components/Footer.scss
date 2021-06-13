@@ -7,6 +7,9 @@ footer {
 
   .social-icons {
     color: #565960;
+    .list-inline-item:not(:last-child) {
+      margin-right: 1rem;
+    }
   }
 
   .copywrite {
