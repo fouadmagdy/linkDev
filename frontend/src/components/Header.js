@@ -4,6 +4,7 @@ import { FaRegBell } from 'react-icons/fa';
 import { AiOutlineClose } from "react-icons/ai";
 import { BiCog } from "react-icons/bi";
 import { LinkContainer } from 'react-router-bootstrap'
+import { Link } from 'react-router-dom'
 
 import Sidebar from './Sidebar'
 
@@ -34,7 +35,11 @@ const Header = () => {
                     </LinkContainer>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav>
-                            <Nav.Link><Image src={searchIcon} alt="searchIcon" className="img-fluid" /></Nav.Link>
+                            <Nav.Link>
+                                <Link to="/listing">
+                                    <Image src={searchIcon} alt="searchIcon" className="img-fluid" />
+                                </Link>
+                            </Nav.Link>
                             <Nav.Link className="bell-notification-alert">
                                 <FaRegBell />
                                 <span></span>

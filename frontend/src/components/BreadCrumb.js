@@ -10,7 +10,7 @@ const BreadCrumb = ({ pageTitle, titleOne, titleTwo }) => {
                 <li className="list-inline-item active"> {`>`} </li>
                 <li className="list-inline-item active"> {titleOne}</li>
                 {titleTwo && (
-                    <span style={{ color: 'gray' }}>
+                    <span className="text-black-50">
                         <li className="list-inline-item active"> {`>`} </li>
                         <li className="list-inline-item active"> {titleTwo}</li>
                     </span>
