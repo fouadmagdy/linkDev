@@ -1,0 +1,76 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 4rem;
+  background-color: #058997;
+  z-index: 155;
+  width: 35%;
+  height: 100%;
+
+  &.fadein {
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.5s;
+  }
+  &.fadeout {
+    -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -ms-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+    opacity: 1;
+  }
+
+  .sidebar-socials {
+    display: flex;
+    align-items: flex-end;
+
+    li {
+      margin-top: 1rem;
+    }
+  }
+
+  .sidebar-navs {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+  }
+
+  ul {
+    li {
+      font-size: 2rem;
+    }
+
+    p {
+      color: #ccc;
+    }
+  }
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sidebar .sidebar-socials {
+    justify-content: center;
+  }
+
+  .sidebar ul li {
+    font-size: 1.2rem;
+  }
+
+  .sidebar-navs {
+    height: 100% !important;
+  }
+}

@@ -1,0 +1,14 @@
+.pagination-custom {
+  li {
+    margin: 0 0.5rem;
+  }
+
+  a {
+    color: #333;
+
+    &.active {
+      background-color: #8dc043;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.breadcrumb-custom {
+  margin: 7rem 0 3rem 0;
+  li {
+    color: #038896;
+    font-size: 1.2rem;
+    &.active {
+      color: #b0b0b0;
+    }
+  }
+
+  .breadcrumbDetails-header {
+    font-size: 3rem;
+  }
+}

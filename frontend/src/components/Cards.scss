@@ -1,0 +1,69 @@
+.card {
+  box-shadow: 0 0 20px #ddd;
+  border: none;
+  border-radius: 5px;
+  .card-img-top {
+    height: 320px;
+  }
+  .card-body {
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    .card-shareLike {
+      color: #8dc043;
+      text-align: right;
+      font-size: 1.5rem;
+      display: flex;
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+
+    .card-text {
+      color: #747983;
+    }
+
+    .tag {
+      background-color: #d9d9d9;
+      padding: 0.5rem 1rem;
+      margin: 0.5rem 0;
+      border-radius: 10px;
+      width: fit-content;
+    }
+
+    .date {
+      display: flex;
+      align-items: center;
+      margin-top: auto;
+      font-weight: bold;
+      color: #707070;
+      svg {
+        color: #8dc043;
+        font-size: 1rem;
+        margin-right: 0.5rem;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      .card-title {
+        color: #333;
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    .card-img-top {
+      height: auto;
+    }
+
+    .card-body {
+      height: auto;
+    }
+  }
+}

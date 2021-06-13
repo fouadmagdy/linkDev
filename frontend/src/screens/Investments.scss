@@ -1,0 +1,57 @@
+.investments {
+  background: url(../images/investmentsFilter.png) no-repeat;
+  background-size: cover;
+  height: 90vh;
+
+  h2:first-child {
+    font-size: 3rem;
+  }
+
+  .investments-rectangles {
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    border: 3px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    cursor: pointer;
+
+    img:first-child {
+      width: 60px;
+    }
+
+    &:hover {
+      background-color: #8dc043;
+      border-color: #8dc043;
+    }
+  }
+
+  .visibility-hidden {
+    visibility: hidden;
+  }
+
+  .transform-invest-card-minus {
+    transform: rotate(-45deg);
+    bottom: 20rem;
+    left: 10rem;
+  }
+
+  .transform-invest-card-positive {
+    transform: rotate(45deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 999px) {
+  .investments {
+    height: 100%;
+  }
+  .investments-rectangles {
+    transform: rotate(-45deg);
+    margin: 3rem 0 !important;
+  }
+}

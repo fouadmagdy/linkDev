@@ -1,0 +1,32 @@
+.relatedTopics {
+  .card {
+    border: none;
+    border-radius: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .relatedTopics-item {
+      border-radius: 5px;
+      background: #e0e0e0;
+
+      h2 {
+        color: #000;
+        font-weight: bold;
+      }
+
+      p {
+        color: #333;
+        margin: 0;
+      }
+
+      .view-details {
+        color: #8dc043;
+      }
+    }
+  }
+  .latest-news-viewBtn {
+    color: #8dc043;
+    font-size: 1.3rem;
+    text-decoration: none;
+  }
+}

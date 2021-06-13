@@ -1,0 +1,20 @@
+.latest-news {
+  .latest-news-header {
+    h2 {
+      font-size: 3rem;
+      color: #000;
+    }
+
+    .latest-news-viewBtn {
+      color: #8dc043;
+      font-size: 1.3rem;
+      text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .latest-news .latest-news-header h2 {
+    font-size: 2rem;
+  }
+}

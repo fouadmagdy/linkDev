@@ -1,0 +1,24 @@
+footer {
+  background-color: #d9d9d9;
+
+  button {
+    background-color: #8dc043 !important;
+  }
+
+  .social-icons {
+    color: #565960;
+  }
+
+  .copywrite {
+    background-color: #038896;
+    text-align: center;
+    color: #fff;
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    text-align: center;
+  }
+}
