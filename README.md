@@ -1,7 +1,5 @@
 # linkDev
 
-## TL;DR
-
 To get started developing right away:
 
 - in the root folder run `yarn install` to install the backend packages to run the data
