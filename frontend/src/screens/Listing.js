@@ -54,7 +54,7 @@ const Listing = () => {
 
     return (
         <Container className="page-news-details" style={{ marginTop: '7rem' }}>
-            <BreadCrumb pageTitle="News" />
+            <BreadCrumb pageTitle="News" titleOne="News" />
             <SearchBar news={news} sendDataToParent={sendDataToParent} sendCategoryToListing={sendCategoryToListing} />
 
             <Row className="mt-5">

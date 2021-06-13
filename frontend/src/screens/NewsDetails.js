@@ -27,7 +27,7 @@ const NewsDetails = ({ match }) => {
     return (
         <div className="Page-NewsDetails">
             <Container style={{ paddingTop: "7rem" }}>
-                <BreadCrumb pageTitle="News Details" />
+                <BreadCrumb pageTitle="News Details" titleOne="News" titleTwo="News Details" />
                 <Row>
                     {news.length > 0 && Object.keys(data).length > 0 && (
                         <Cards

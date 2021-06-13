@@ -1,6 +1,7 @@
 import React from 'react'
 import './Sidebar.scss'
 import { Container, Row, Col, Image } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
@@ -23,7 +24,7 @@ const Sidebar = ({ sideOpen }) => {
                     <Col sm={9} className="sidebar-navs mt-5">
                         <div>
                             <ul className="list-unstyled">
-                                <li>Home</li>
+                                <li><Link to="/">Home</Link></li>
                             </ul>
                             <ul className="list-unstyled">
                                 <li>About us</li>
@@ -32,7 +33,7 @@ const Sidebar = ({ sideOpen }) => {
                             </ul>
 
                             <ul className="list-unstyled">
-                                <li>News</li>
+                                <li><Link to="/listing">News</Link></li>
                                 <p>News</p>
                                 <p>Events</p>
                             </ul>

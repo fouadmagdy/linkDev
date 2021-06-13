@@ -8,5 +8,5 @@ To get started developing right away:
 
 # Functionality
 
-- on HomePage you can open the menu
+- on HomePage you can open the menu && and on press view all button will route to listing page and on each news card title will naviagte to its details page
 - on ListingPage you can search for the news and choose the category to show and can paginate from 1 & 2 page
